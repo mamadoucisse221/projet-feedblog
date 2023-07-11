@@ -1,0 +1,48 @@
+
+/* Définition des couleurs */
+body {
+  background-color: #e8e8e8;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  margin-right: 10px;
+  margin-left: 10px; /* Ajoute une marge à gauche de l'image */
+  margin-top: 5px; /* Ajoute une marge en haut de l'image */
+  margin-bottom: 5px; /* Ajoute une marge en bas de l'image */
+  border-radius: 50%; /* Applique la forme circulaire */
+  overflow: hidden; /* Masque le contenu qui dépasse du cercle */
+}
+
+.navbar-brand .d-block {
+  font-size: 14px;
+}
+
+.navbar-nav .nav-link {
+  margin-right: 10px; /* Ajoute une marge droite entre les items */
+}
+
+/* Réduction de la taille des formulaires */
+form {
+  max-width: 400px;
+  margin: 60px auto; /* Ajout de la marge autour des formulaires */
+  border: 1px solid #2bc48a; /* Changement de la couleur de la bordure des formulaires */
+  padding: 20px;
+}
+.form{
+  max-width: 400px;
+  margin: 15px auto; /* Ajout de la marge autour des formulaires */
+  border: 1px solid #2bc48a; /* Changement de la couleur de la bordure des formulaires */
+  padding: 20px;
+}
+/* Changement de la couleur des boutons */
+.btn-primary,
+.btn-link {
+  background-color: #2bc48a;
+  color: #fff;
+}
+
+/* Ajoute ici d'autres règles CSS pour personnaliser ton design */
